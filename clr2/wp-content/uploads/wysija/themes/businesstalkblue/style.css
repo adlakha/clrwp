@@ -1,0 +1,54 @@
+/*
+Theme Name: Business Talk - blue
+Description: Neat. Clean. A touch of blue to your taste.
+Author: Gifky
+Author URI: http://gifky.com/
+Author Email: gifky@gifky.com
+Tags: grey, blue, business
+
+Note: the plugin won't recognize any additional styles if you add them. The styles below offer all the possibilities of Wysija.
+
+*/
+html {
+    background-color: #c3cdd6; /* cannot be transparent and will default to white */
+}
+
+header {
+    background-color: transparent; /* can be transparent */
+}
+body {
+    color:#39434d;
+    font-family: "Arial";
+    font-size: 12px;
+    background-color: #ffffff; /* can be transparent */
+}
+footer {
+    background-color: transparent; /* can be transparent */
+}
+h1 {
+    color: #39434d;
+    font-family: Arial;
+    font-size: 28px;
+}
+h2 {
+    color: #39434d;
+    font-family: Arial;
+    font-size: 18px;
+}
+h3 {
+    color: #39434d;
+    font-family: Arial;
+    font-size: 16px;
+}
+a {
+    color: #2976bd;
+    text-decoration:none;
+}
+unsubscribe {
+    color:#39434d;
+}
+viewbrowser {
+	font-family:'Arial';
+	font-size:11px;
+	color:#39434d;
+}

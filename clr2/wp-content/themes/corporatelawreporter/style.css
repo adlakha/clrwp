@@ -1,0 +1,370 @@
+/*
+ *Theme Name:Updated Corporate Law Reporter .
+ *Theme URI : http://corporatelawreporter.com/
+ *Author: the WordPress team .
+ *Author URI: http://corporatelawreporter.com/
+ */
+
+ #wpsinglepostcontent pre{
+    word-break:inherit; 
+    word-wrap: inherit; 
+    white-space: pre-line !important;
+ }
+
+/* Fix issues with jquery overlay blocking checkout button */
+.woocommerce .blockUI.blockOverlay {
+  position: relative!important;
+  display: none!important;
+}
+
+.author-epoints .author-profile-pic{
+  width:50%;
+}
+
+.page-template-template-company_act-php .addsenseCode{margin:10px;}
+body #content .related products{
+display:none;
+}
+.woocommerce-tabs li{
+ padding:5px;
+}
+body {
+	padding-top: 50px;
+} 
+.font-16{
+	font-size:16px;
+	padding:2px;
+}  
+.ca-2013-hr{
+	margin:6px;
+}
+.margin-top-15{
+	margin-top:15px;
+}
+.display-inline{
+	display:inline!important;
+}
+.display-block{
+	display:block!important;
+}
+.posts-content p span
+{
+	font-size:18px!important;
+}
+.title-small-ca2013{
+	font-size:24px;
+}
+.single .post-nav li {
+    margin: 0 -5px 7px 0;
+}
+.author-listing-row{
+	padding:10px 0px;
+}
+.wpcf7 input[type=text], .wpcf7 input[type=email], .wpcf7 textarea {
+    width: 100%;
+    border: 1px solid;
+}
+.custom-addtocart-price ins,.custom-addtocart-price del{
+	display:none;
+}
+.wpcf7 input[type=submit]{
+	padding:5px;
+	background: #e57f03;
+    color: #fff;
+    font-weight: bold;
+}
+.wpcf7 p{font-weight:bold;}
+.search input::-webkit-input-placeholder { font-size:10px; }
+.search input::-moz-placeholder { font-size:9px; }
+.search input:-ms-input-placeholder { font-size:10px; }
+.search input:-moz-placeholder { font-size:9px; }
+
+
+.outer-container {
+	height: 100%;
+    overflow-x: hidden;
+} 
+.left-manageheight .posts-content p{margin-bottom:none !important;}
+.woocommerce-checkout .member-details-table td{padding:10px;}  
+.header-followus{
+	margin-right: -77px;
+} 
+.margin-bottom{
+	margin-bottom:10px;
+}
+
+.tmp-downloadform .aligncenter{
+	display: flex;
+  align-items: center;
+}
+.page-template-template-corporate-form-download .category-nav ul{
+	padding:0 0 0 14px;
+}
+
+body.single-product .woocommerce-breadcrumb,body.single-product .right-manageheight{display:none;}
+body.single-product div.product{padding:25px;}
+body.single-product input.input-text.qty.text {
+  width: 60px;
+  height: 40px;
+}
+.social_connect_form a img{display:none;}
+
+/*listing page :left side image*/
+.leftimg{float:left;margin:12px;}
+/*****************Login social login : */
+.social_connect_form a{
+	display:block;
+	margin:10px 0;
+	padding:15px 0 15px 50px;
+  	color: #fff;
+  	border-radius: 5px;
+	font-size:12px;
+	}
+.social_connect_form .social_connect_login_facebook{
+  background: #3e5b97 url(../../plugins/social-connect/media/img/facebook_32.png) no-repeat 6px center;
+}
+.social_connect_form .social_connect_login_google_plus{
+	background: #cf4832 url(../../plugins/social-connect/media/img/google_plus_32.png) no-repeat 6px center;
+}
+.social_connect_form .social_connect_login_yahoo{
+background: rgb(114, 64, 156) url(../../plugins/social-connect/media/img/yahoo_32.png) no-repeat 6px center;	
+}
+
+.social_connect_form .social_connect_login_twitter{
+  background:#0086BA url(../../plugins/social-connect/media/img/twitter_32.png) no-repeat 6px center;
+}
+/*****************Login social login : */
+.woocommerce-checkout .input-text {
+  padding: 8px;
+}
+.social_connect_ui p {
+display:none;
+}
+
+
+.jumper{top:50px;}
+.errormsg {
+    padding-right: 38px;
+position: relative;
+margin: 5px 0 15px;
+border-color: #7ad03a;
+color: #f41313;
+background:#ECE8E8;
+padding-left:10px;
+border-left:3px solid red;
+}
+
+.succmsg {
+  padding-right: 38px;
+  position: relative;
+  margin: 5px 0 15px;
+  border-color:green;
+  color:green;
+  background: #ECE8E8;
+  padding-left: 10px;
+  border-left: 3px solid green;
+  
+}
+
+ul.menu li a:hover{color:#fc8b04;}
+.title-color{color:#fc8b01;}
+
+.row .orange{color:#fc8b01;}
+.sharethis-sharing .stButton .stFb,.sharethis-sharing .stButton .stTwbutton,.sharethis-sharing .stButton .stMainServices{height:100%;}
+.single-content ul li,.single-content ol li{
+	line-height:35px;
+	margin-bottom:20px;
+}
+.margin-top-none{margin-top:0px;}
+.orgimg-post{
+	width:265px;
+	height:70px;
+	margin-top:-20px;
+}
+.about-author li.email{background-image:url(images/email.png);}
+.about-author li.author-website{background-image:url(images/website.png);}
+.related-articles .font-size-20{font-size:20px;}
+.loader-text{display:none;color:green;}
+.error{
+	border:1px solid red;
+}
+/*.left-manageheight p,.tmp-downloadform p,body.single-product p{text-align:justify;}*/
+
+.related-articles ul {
+	margin-top: 15px;
+	background: url(images/bg-left.jpeg) repeat;
+}
+.related-articles ul li{
+  font-size: 16px;
+  line-height: 26px;
+  padding: 5px 15px;
+  list-style: none;
+  border-bottom: 1px solid #fff;
+}
+.related-articles ul li:hover {
+	background: #fff;
+}
+
+.main-heading {
+	font-size: 30px;
+	margin-top: 20px;
+}
+.memeber-details td{padding:10px;}
+.memeber-details th{text-align:center;}
+
+.post-type-archive-product .products li,.tax-product_cat .products li{width:100% !important;
+}
+.post-type-archive-product .products li ul,.tax-product_cat .products li ul{
+display: table;
+}
+.post-type-archive-product .products li ul li,.tax-product_cat .products li ul li{
+  width: 25% !important;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 20px 0 0;
+  position: relative;
+}
+.post-type-archive-product .products li ul li .button,.tax-product_cat .products li ul li .button{margin-top:0px !important;
+}
+/*woocommerce single category*/
+.single-product .product_meta{display:none}
+.woocommerce-checkout label.payment_method_ccavenue{font-size:13px;}
+.single-product .woocommerce div.product div.images img{max-width:100%;}
+
+/* Event expired */
+.media-partner{
+	background: #ECE8E8;
+    padding: 10px;
+     margin-bottom:10px;
+}
+.event-expired{
+	color: red;
+    border-left:4px solid red;
+    font-size: 18px;
+	 padding: 0px;
+	 margin: 0px;
+	 line-height: 24px;
+   }
+  .event-registeration{
+    color: green;
+    border-left:4px solid green;	
+  } 
+.event-expired i{
+  background-image: url("images/close-icon.png");
+}
+.register-symbol{background-image: url("images/Valid.png");}
+.media-partner i.icon{
+  width: 100%;
+  padding: 13px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-size:19px 19px;
+}
+.archive .subscribe-event-link{color:#fff;}
+/*
+ * Sidebar link design 
+ */
+.right-manageheight .right-content ul {
+    margin: 0 -32px 0 -33px;
+}
+.right-manageheight .right-content ul li{
+    font-size:17px;
+    line-height:25px;
+    border-bottom: 1px solid #fff;
+    margin-top: 0;
+    padding: 15px;
+    border-right: 1px solid #ECE8E8;
+}
+.right-manageheight .right-content .wpp-list li:hover,
+.right-manageheight .right-content .widget_recent_entries li:hover,
+.right-manageheight .right-content .widget_categories li:hover {
+    background: #fff;
+}
+.right-manageheight .right-content .wpp-list li:hover a,
+.right-manageheight .right-content .widget_recent_entries li:hovera a,
+.right-manageheight .right-content .widget_categories li:hover a, {
+    color: #565051;
+}
+.right-manageheight .right-content h3{ margin: 0 0 5px;
+    padding-top: 6px;} 
+.right-manageheight .right-content{margin-top:9px;}
+.single .left-manageheight h2.post-title{line-height:30px;}
+.single .left-manageheight .author-org-logo{margin-bottom:1px;}
+.single-companies_act .left-manageheight .follow-us{float:none!important;text-align:center;margin-top:-68px;}
+.single-companies_act .left-manageheight .jumpto{width:270px;}
+.single-companies_act .left-manageheight .search-input .form-control{height:32px;line-height:22px;}
+.single-companies_act .left-manageheight .jumpto label{margin-right:0px;line-height:32px;}
+.single-companies_act .left-manageheight .search-input .btn {padding:6px 13px;}
+
+body.single-post a.button.add_to_cart_button.product_type_simple {
+  background: rgb(229, 127, 3);
+  color: rgb(255, 255, 255);
+}
+/*header menu :theme-location:-mobile view */
+.mobile-view{display:none;} 
+.authorinfo-organisation ul li{color:#333;margin:0 5px 7px 0;padding-right:0px;}
+
+.table,table td,table th, table caption {
+    border:1px solid #000;
+    padding:3px 5px;
+}
+
+.search-highlight {
+    background:#FFFF00!important;  
+  }
+  
+.middle-container {
+	background: url(images/bg-left.jpeg) repeat-y right 1.8% top 0px;
+    background-size: 31% 1px;
+}
+.comment-column .nocomments{
+display:none;
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+   ;/* border: 1px solid #ccc;*/
+}
+
+.woocommerce div.product div.images img {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0 0 0px;
+}
+
+.register-forms{
+  width: 50%;
+  margin:0 auto;
+}
+
+.input-box {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: 0;
+}
+
+.home-icon{
+  margin-right:14px;
+}
+
+.home-icon img {
+    width: 40px;
+    height: 40px;
+    margin-top: -2px;
+}
+
+.single-content li {
+    list-style-type: initial;
+    margin-left: 15px;
+}
+
+.post-column .inside li{
+    font-size: 14px;
+    line-height: 28px;
+    list-style-type: initial;
+    margin-left: 15px;
+}
+
+.post-column .inside .btn-primary:focus, .btn-primary.focus {
+    background-color: #286090 !important;
+}

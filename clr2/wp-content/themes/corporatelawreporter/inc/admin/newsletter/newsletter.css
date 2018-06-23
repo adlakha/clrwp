@@ -1,0 +1,41 @@
+/*
+* Newsletter css
+*/
+.custom-newsletter select[multiple] {
+    height: 500px;
+    width: 100%;
+}
+
+.custom-newsletter .right{float:right;}
+.custom-newsletter .newsletter-submit{
+    background:#00a0d2;
+    color:#fff;
+}
+.custom-newsletter select {
+        width: 500px;
+        float: left;
+    }
+ .custom-newsletter select option{
+		 line-height:30px;       
+		 padding:5px 10px;
+    }   
+ .custom-newsletter .controls {
+        width: 99%;
+        float: left;
+        margin: 10px;
+        
+    }
+  .custom-newsletter .controls a {
+        background-color: #222222;
+        border-radius: 4px;
+        border: 2px solid #000;
+        color: #ffffff;
+        padding: 2px;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        width: 20px;
+    }
+ 
